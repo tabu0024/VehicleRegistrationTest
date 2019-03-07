@@ -74,11 +74,11 @@ public class MyStepdefs {
             default:
                 driver = new ChromeDriver();
                 exePath = "selenium/chromedriverX";
-                System.setProperty("webdriver.chrome.driver", exePath);                break;
+                System.setProperty("webdriver.chrome.driver", exePath);
+                break;
         }
             driver.manage().deleteAllCookies();
             driver.get(url);
-            driver.manage().window().maximize();
     }
 
     @Given("^I am on Drive Away insurance Page$")
