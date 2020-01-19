@@ -105,6 +105,7 @@
                     <includes>
                         <exclude>**/*testRunner.java</exclude>
                     </includes>
+                <rerunFailingTestsCount>3</rerunFailingTestsCount>
                 </configuration>
             </plugin>
 
